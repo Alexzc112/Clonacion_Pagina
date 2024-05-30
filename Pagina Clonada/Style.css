@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.fixed-top .banner {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555;
+}
+
+.containerImg {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img1 {
+    background-image: url('https://www.tesla.com/sites/default/files/modelsx-new/social/model-s-hero-social.jpg');
+}
+
+.img2 {
+    background-image: url('https://www.tesla.com/sites/default/files/modely-new/social/model-y-hero-social.jpg');
+}
+
+.img3 {
+    background-image: url('https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg');
+}
+
+.img4 {
+    background-image: url('https://www.tesla.com/sites/default/files/modelx-new/social/model-x-hero-social.jpg');
+}
+
+.img5 {
+    background-image: url('https://www.tesla.com/sites/default/files/solarpanels/hero/D_solarpanels_hero.jpg');
+}
+
+.img6 {
+    background-image: url('https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg');
+}
+
+.img7 {
+    background-image: url('https://www.tesla.com/sites/default/files/energy/Powerwall_D.jpg');
+}
+
+.subtitulos {
+    color: #fff;
+}
+
+.boton {
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton1 {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.boton2 {
+    background-color: #fff;
+    color: #3a3a3a;
+}
+
+.boton1:hover,
+.boton2:hover {
+    opacity: 0.8;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+footer .list-inline-item a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer .list-inline-item a:hover {
+    text-decoration: underline;
+}
+
+
